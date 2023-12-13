@@ -1,0 +1,19 @@
+e65 smfa
+0xda (moving seat)
+byte 1 - 0btilt down,tilt up,backrest tilt back,backrest tilt forward,down,up,backward,forward
+byte 2 - 0bbackrest fold backward,backrest fold forward,leg bolster in,leg bolster out,?,?,side bolster extend,side bolster retract
+byte 3 - 0b?,?,back support lower retract,back support lower extend,back support center retract,back support center extend,headrest down,headrest up
+byte 4 - always 0xff
+
+0x1eb (Active Seat)
+
+
+0x1f3 (Seat Memory)
+
+
+0x1e7 (Seat Heating/Climate)
+
+
+
+0x1dc (Seat Heat Layering)
+Byte 0 - Seems to change the heat location, but this byte has to continually change for the seat to send status messages (0x232)
